@@ -1,0 +1,23 @@
+{
+  "name": "mocha_esm",
+  "version": "1.0.0",
+  "NOTE": "Delete 'type' node below to run tests w/o errors.",
+  "type": "module",
+  "description": "Demo package for Stackoverflow question.",
+  "main": "./src/Index.js",
+  "scripts": {
+    "test-one": "./node_modules/mocha/bin/mocha --require esm './test/Util.test.js'",
+    "test": "./node_modules/mocha/bin/mocha --require esm --recursive './test/**/*.test.js'"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Alex Gusev",
+    "email": "alex@flancer64.com",
+    "url": "https://github.com/flancer64"
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "esm": "*",
+    "mocha": "*"
+  }
+}
