@@ -1,4 +1,4 @@
-import Util from '../src/Util';
+import Util from '../src/Util.js';
 import {describe, it} from 'mocha';
 import assert from 'assert';
 
