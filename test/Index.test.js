@@ -1,4 +1,4 @@
-import Index from '../src/Index';
+import Index from '../src/Index.js';
 import {describe, it} from 'mocha';
 import assert from 'assert';
 
